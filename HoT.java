@@ -19,5 +19,7 @@ class HoT {
     }
     }
     System.out.println("Heads:" + Hcount + "," + "Tails:" + Tcount);
+    if(Hcount > Tcount) System.out.println("You won");
+    else System.out.println("You lost");
   }
 }
